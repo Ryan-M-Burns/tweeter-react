@@ -2,7 +2,15 @@ import React from 'react'; // optional for React v17 and above
 
 const Profile = () => {
   return (
-    <h1>I am the profile component</h1>
+    <aside>
+      <div className="profile">
+        <img className="profile__image" src="./profile-hex.png" />
+      </div>
+      <br />
+      <div className="profile__name">
+        <h2><span className="profile--bold">Amy</span> Mansell</h2>
+      </div>
+    </aside>
   );
 };
 
