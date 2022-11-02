@@ -62,7 +62,7 @@ const TweetList = () => {
           </small>
         </footer>
         
-      </article>
+      </article>  
 
     </section>
   );
