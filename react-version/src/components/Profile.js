@@ -1,9 +1,18 @@
 import React from 'react'; // optional for React v17 and above
 
 const Profile = () => {
-  const firstName = "Amy";
-  const lastName = "Mansell";
-  const avatar = "/profile-hex.png";
+  const user = {
+    firstName: "Amy",
+    lastName: "Mansel",
+    avatar: "../../public/profile-hex.png"
+  };
+
+  <Profile {...user} />;
+
+  //or 
+
+  <Profile firstName="Amy" lastName="Mansel" avatar="../../public/profile-hex.png" />;
+
   return (
     <aside>
       <div className="profile">
